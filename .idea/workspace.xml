@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6916066c-0d65-46f5-b2b6-ef914432274f" name="Default Changelist" comment="" />
+    <list default="true" id="6916066c-0d65-46f5-b2b6-ef914432274f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebank-integration/src/main/java/com/hexu/ebank/ebank/integration/EbankIntegrationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-integration/src/main/java/com/hexu/ebank/integration/EbankIntegrationApplication.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ebank-center/target/" />
@@ -63,30 +66,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebank-card/src/main/java/com/hexu/ebank/card/feign/TCardServiceFeign.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="40" column="44" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebank-card/src/main/java/com/hexu/ebank/card/service/TCardService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ebank-card/src/main/java/com/hexu/ebank/card/service/impl/TAmountServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -110,11 +89,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ebank-common/src/main/java/com/hexu/ebank/common/util/HttpUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebank-integration/ebank-integration.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ebank-integration/src/main/java/com/hexu/ebank/integration/EbankIntegrationApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -222,7 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/EbankGateApplication.java" />
         <option value="$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/config/ClientFallbackProvider.java" />
         <option value="$PROJECT_DIR$/ebank-gate/pom.xml" />
         <option value="$PROJECT_DIR$/ebank-user/src/main/java/com/hexu/ebank/user/EbankUserApplication.java" />
@@ -273,6 +272,7 @@
         <option value="$PROJECT_DIR$/ebank-card/src/main/resources/mapper/TCardMapper.xml" />
         <option value="$PROJECT_DIR$/ebank-card/src/main/java/com/hexu/ebank/card/mapper/TAmountMapper.java" />
         <option value="$PROJECT_DIR$/ebank-card/src/main/java/com/hexu/ebank/card/service/impl/TCardServiceImpl.java" />
+        <option value="$PROJECT_DIR$/ebank-integration/src/main/java/com/hexu/ebank/integration/EbankIntegrationApplication.java" />
       </list>
     </option>
   </component>
@@ -328,12 +328,131 @@
             <path>
               <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ebank-gate" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hexu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hexu" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
               <item name="ebank-integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-integration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-integration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-integration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-integration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-integration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hexu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-integration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hexu" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-integration" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hexu" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank" type="462c0819:PsiDirectoryNode" />
+              <item name="integration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -367,6 +486,9 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ebank-integration/src/main/java/com/hexu/ebank" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hexu.ebank.user.feign" />
       <recent name="com.hexu.ebank.gate.rpc" />
@@ -470,7 +592,7 @@
       <workItem from="1587532929110" duration="1961000" />
       <workItem from="1587748774516" duration="136000" />
       <workItem from="1587749840639" duration="193000" />
-      <workItem from="1588006841498" duration="2723000" />
+      <workItem from="1588006841498" duration="3010000" />
     </task>
     <task id="LOCAL-00001" summary="ebank-springcloud demo">
       <created>1588010174019</created>
@@ -479,11 +601,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588010174019</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ebank-springcloud demo">
+      <created>1588011873831</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588011873831</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196325000" />
+    <option name="totallyTimeSpent" value="196612000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,6 +625,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49588478" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" sideWeight="0.5041152" side_tool="true" weight="0.26466382" />
@@ -518,7 +648,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.15379113" side_tool="true" weight="0.3977695" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49928468" weight="0.3283767" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32961586" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32961586" />
       <window_info anchor="right" id="Coverage" order="0" sideWeight="0.50617284" side_tool="true" weight="0.11731044" />
@@ -552,14 +682,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ebank-card/src/main/java/com/hexu/ebank/card/service/impl/TAmountTypeServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/ebank-card/src/main/java/com/hexu/ebank/card/controller/InstanceStatusController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ebank-card/src/main/java/com/hexu/ebank/card/service/TAmountTypeService.java" />
     <entry file="file://$PROJECT_DIR$/ebank-card/src/main/java/com/hexu/ebank/card/controller/TAmountTypeBaseController.java" />
     <entry file="file://$PROJECT_DIR$/ebank-card/src/main/resources/mapper/TCurrencyMapper.xml">
@@ -932,6 +1054,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-integration/ebank-integration.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-integration/src/main/java/com/hexu/ebank/integration/EbankIntegrationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

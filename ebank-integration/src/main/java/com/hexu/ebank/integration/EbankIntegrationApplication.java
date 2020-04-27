@@ -1,4 +1,4 @@
-package com.hexu.ebank.ebank.integration;
+package com.hexu.ebank.integration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
