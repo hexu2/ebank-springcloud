@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+
+<generatorConfiguration>
+    <context id="mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <!--注释
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+            <property name="suppressDate" value="true"/>
+        </commentGenerator>
+        -->
+        <!-- DataSource -->
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/ebank-card?useUnicode=true&amp;characterEncoding=UTF8&amp;useSSL=false"
+                        userId="root" password="1qaz2wsx"><!-- password="1qaz2wsx" 故意写错密码，防止覆盖生成又不会block打包 -->
+        </jdbcConnection>
+
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <!-- Java接口和实体类 -->
+		<javaModelGenerator targetPackage="${targetModelPackage}"
+			targetProject="${targetJavaProject}">
+        </javaModelGenerator>
+
+        <!--mybatis 的xml文件地址-->
+		<sqlMapGenerator targetPackage="${targetXMLPackage}"
+			targetProject="${targetResourcesProject}" >
+        </sqlMapGenerator>
+
+        <!-- Mapper 层路径 -->
+		<javaClientGenerator targetPackage="${targetMapperPackage}"
+			targetProject="${targetJavaProject}" type="XMLMAPPER" >
+        </javaClientGenerator>
+
+        <table tableName="xxx" domainObjectName="xxx"/><!-- 保持结构完整，避免重复覆盖又可以避免打包失败 -->
+
+<!--        <table tableName="t_amount" domainObjectName="TAmount"/>-->
+<!--        <table tableName="t_amount_type" domainObjectName="TAmountType"/>-->
+<!--        <table tableName="t_card" domainObjectName="TCard"/>-->
+<!--        <table tableName="t_card_type" domainObjectName="TCardType"/>-->
+<!--        <table tableName="t_currency" domainObjectName="TCurrency"/>-->
+<!--        <table tableName="t_product" domainObjectName="TProduct"/>-->
+<!--        <table tableName="t_product" domainObjectName="Temp"/>-->
+
+    </context>
+</generatorConfiguration>

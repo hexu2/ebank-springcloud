@@ -1,0 +1,9 @@
+/Users/hexu/Developer/WorkSpace/IDEA/ebank-springcloud/ebank-gate/src/main/java/com/hexu/ebank/gate/config/ClientFallbackProvider.java
+/Users/hexu/Developer/WorkSpace/IDEA/ebank-springcloud/ebank-gate/src/main/java/com/hexu/ebank/gate/filter/CorsFilter.java
+/Users/hexu/Developer/WorkSpace/IDEA/ebank-springcloud/ebank-gate/src/main/java/com/hexu/ebank/gate/EbankGateApplication.java
+/Users/hexu/Developer/WorkSpace/IDEA/ebank-springcloud/ebank-gate/src/main/java/com/hexu/ebank/gate/rpc/EbankUserRpc.java
+/Users/hexu/Developer/WorkSpace/IDEA/ebank-springcloud/ebank-gate/src/main/java/com/hexu/ebank/gate/aop/LogAspect.java
+/Users/hexu/Developer/WorkSpace/IDEA/ebank-springcloud/ebank-gate/src/main/java/com/hexu/ebank/gate/controller/InstanceStatusController.java
+/Users/hexu/Developer/WorkSpace/IDEA/ebank-springcloud/ebank-gate/src/main/java/com/hexu/ebank/gate/rpc/EbankCardRpc.java
+/Users/hexu/Developer/WorkSpace/IDEA/ebank-springcloud/ebank-gate/src/main/java/com/hexu/ebank/gate/config/WebSecurityConfig.java
+/Users/hexu/Developer/WorkSpace/IDEA/ebank-springcloud/ebank-gate/src/main/java/com/hexu/ebank/gate/config/SwaggerConfig.java

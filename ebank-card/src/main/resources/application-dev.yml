@@ -1,0 +1,59 @@
+server:
+  port: 8763
+
+spring:
+  application:
+    name: ebank-card
+
+  datasource:
+    name: ebank
+    url: jdbc:mysql://127.0.0.1:3306/ebank-card?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8&useSSL=false
+    username: root
+    password: 1qaz2wsx
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 连接池配置
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+
+#mybatis
+mybatis:
+  basepackage: com.hexu.ebank.card.mapper
+  xmlLocation: classpath:mapper/*.xml
+
+#eureka confg
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8760/eureka/
+
+#swagger config
+swagger:
+  basepackage: com.hexu.ebank.card
+  service:
+    name: ebank-card
+    description: ebank-card后端服务接口
+    developer: hexu
+    url: com.hexu.ebank
+    email: 2212925883@qq.com
+
+#Log config
+logging:
+  level:
+    org.springframework: ERROR
+    com.hexu.ebank: DEBUG
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  file:
+    name: log/ebank-card/application-ebank-card-dev.log

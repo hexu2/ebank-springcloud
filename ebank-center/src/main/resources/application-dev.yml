@@ -1,0 +1,24 @@
+server:
+  port: 8760
+
+spring:
+  application:
+    name: ebank-center
+#      security:
+#         user:
+#           name: hexu
+#           password: 123456
+
+
+
+eureka:
+  server:
+    enableSelfPreservation: false
+  client:
+    #是否注册自己，默认为true
+    registerWithEureka: false
+    #此客户端是否要读取eureka服务器注册列表，默认为true
+    fetchRegistry: false
+    serviceUrl:
+#      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@127.0.0.1:${server.port}/eureka/
+      defaultZone: http://127.0.0.1:${server.port}/eureka/

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+
+<generatorConfiguration>
+
+    <context id="mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <!--注释
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+            <property name="suppressDate" value="true"/>
+        </commentGenerator>
+        -->
+        <!-- DataSource -->
+
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/ebank-user?useUnicode=true&amp;characterEncoding=UTF8&amp;useSSL=false"
+                        userId="root" password="1qaz2wsx">
+        </jdbcConnection>
+
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <!-- Java接口和实体类 -->
+		<javaModelGenerator targetPackage="${targetModelPackage}"
+			targetProject="${targetJavaProject}">
+        </javaModelGenerator>
+
+        <!--mybatis 的xml文件地址-->
+		<sqlMapGenerator targetPackage="${targetXMLPackage}"
+			targetProject="${targetResourcesProjectesProject}" >
+        </sqlMapGenerator>
+
+        <!-- Mapper 层路径 -->
+		<javaClientGenerator targetPackage="${targetMapperPackage}"
+			targetProject="${targetJavaProject}" type="XMLMAPPER" >
+        </javaClientGenerator>
+
+        <!-- table obj mapping -->
+        <table tableName="xxx" domainObjectName="xxx"/><!-- 保持结构完整，避免重复覆盖又可以避免打包失败 -->
+<!--        <table tableName="t_user" domainObjectName="TTemp"/>-->
+<!--        <table tableName="t_user" domainObjectName="TUser"/>-->
+<!--        <table tableName="t_user_log" domainObjectName="TUserLog"/>-->
+
+    </context>
+</generatorConfiguration>
+

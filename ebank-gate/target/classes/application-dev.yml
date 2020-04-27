@@ -1,0 +1,94 @@
+server:
+  port: 8762
+
+spring:
+  application:
+    name: ebank-gate
+
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
+
+
+
+#eureka config
+eureka:
+  server:
+  instance:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8760/eureka/
+
+#feign config
+feign:
+  hystrix:
+    enabled: true
+#  compression:
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+
+#ribbon config
+ribbon:
+  eureka:
+    enabled: true
+  #Ribbon允许最大连接数，即所有后端微服务实例请求并发数之和的最大值。
+  MaxTotalConnections: 5000
+  #单个后端微服务实例能接收的最大请求并发数
+  MaxConnectionsPerHost: 500
+  ReadTimeout: 2000
+  ConnectTimeout: 2000
+
+#zuul config
+zuul:
+  routes:
+    ebank-user:
+      path: /ebank-user/*
+      serviceId: ebank-user
+    ebank-card:
+      path: /ebank-card/*
+      serviceId: ebank-card
+
+  sensitive-headers:
+  host:
+    connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
+
+ebank-user:
+  ribbon:
+    listOfServers: localhost:8761
+
+#fcat-angular:
+#  ribbon:
+#    listOfServers: localhost:4200
+
+
+
+
+
+#swagger config
+swagger:
+  basepackage: com.hexu.ebank.gate
+  service:
+    name: ebank-gate
+    description: ebank-gate 后端服务接口
+    developer: hexu
+    url: com.hexu.ebank
+    email: 2212925883@qq.com
+
+
+#Log config
+logging:
+  level:
+    org.springframework: ERROR
+    com.hexu.ebank: DEBUG
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  file:
+    name: log/ebank-user/application-ebank-gate-dev.log
