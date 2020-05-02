@@ -2,11 +2,12 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ebank-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ebank-card" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ebank-center" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ebank-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ebank-gate" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ebank-springintegration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ebank-springintegration" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ebank-user" charset="UTF-8" />
   </component>
 </project>

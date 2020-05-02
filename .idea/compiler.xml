@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ebank-center" />
+        <module name="ebank-springintegration" />
         <module name="ebank-gate" />
         <module name="ebank-common" />
         <module name="ebank-card" />
@@ -20,6 +21,7 @@
       <module name="ebank-common" target="1.8" />
       <module name="ebank-gate" target="1.8" />
       <module name="ebank-springcloud" target="1.8" />
+      <module name="ebank-springintegration" target="1.8" />
       <module name="ebank-user" target="1.8" />
       <module name="ebankapi" target="1.8" />
     </bytecodeTargetLevel>
@@ -32,6 +34,7 @@
       <module name="ebank-common" options="-parameters" />
       <module name="ebank-gate" options="-parameters" />
       <module name="ebank-springcloud" options="" />
+      <module name="ebank-springintegration" options="-parameters" />
       <module name="ebank-user" options="-parameters" />
       <module name="ebankapi" options="-parameters" />
     </option>

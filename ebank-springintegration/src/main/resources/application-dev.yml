@@ -1,0 +1,67 @@
+server:
+  port: 8764
+
+spring:
+  application:
+    name: ebank-springintegration
+
+  datasource:
+    name: ebank
+    url: jdbc:mysql://127.0.0.1:3306/ebank-user?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8&useSSL=false
+#    url: jdbc:mysql://127.0.0.1:3306/ebank?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 1qaz2wsx
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 连接池配置
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+#mybatis
+mybatis:
+  basepackage: com.hexu.ebank.springintegration.mapper
+  xmlLocation: classpath:mapper/*.xml
+
+#eureka confg
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8760/eureka/
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 30000 #缺省为1000
+
+#swagger config
+swagger:
+  basepackage: com.hexu.ebank.springintegration
+  service:
+    name: ebank-springintegration
+    description: ebank-springintegration后端服务接口
+    developer: hexu
+    url: com.hexu.ebank
+    email: 2212925883@qq.com
+
+#Log config
+logging:
+  level:
+    org.springframework: ERROR
+    com.hexu.ebank: DEBUG
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  file:
+    name: log/ebank-springintegration/application-ebank-springintegration-dev.log
