@@ -31,13 +31,13 @@ public class IntergrationController {
     }
 
     @RequestMapping(value = "/user", method = {RequestMethod.POST})
-    public void processAddressDetails(@RequestBody TUser user){
-        integrationGateWay.process(user);
+    public void processUserDetails(@RequestBody TUser tUser){
+        integrationGateWay.processByPayloadRouter(tUser);
     }
 
     @RequestMapping(value = "/address", method = {RequestMethod.POST})
     public void processAddressDetails(@RequestBody Address address){
-        integrationGateWay.process(address);
+        integrationGateWay.processByPayloadRouter(address);
     }
 
 }

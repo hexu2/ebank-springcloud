@@ -38,7 +38,7 @@ public class UserService {
     }
 
 
-    @ServiceActivator(inputChannel = "tuser.channel")
+    @ServiceActivator(inputChannel = "tuser.from.payloadtyperouter.channel")
     public void receiveMessageFromTuser(Message<?> message) throws MessagingException {
 
         logger.debug("=======tuser.channel=======");

@@ -14,6 +14,7 @@ public interface IntegrationGateWay {
     @Gateway(requestChannel = "integration.tuser.gatewary.channel")
     String pocessTuserDetails(TUser tUser);
 
-    @Gateway(requestChannel = "router.channel")
-    public <T> void process(T object);
+    @Gateway(requestChannel = "payload.router.channel")
+    public <T> void processByPayloadRouter(T object);
+
 }

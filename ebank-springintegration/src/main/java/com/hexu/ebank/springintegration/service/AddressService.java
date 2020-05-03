@@ -12,7 +12,7 @@ public class AddressService {
 
     private static final Logger logger = LoggerFactory.getLogger(AddressService.class);
 
-    @ServiceActivator(inputChannel = "address.channel")
+    @ServiceActivator(inputChannel = "address.from.payloadtyperouter.channel")
     public void receiveMessage(Message<?> message) throws MessagingException {
 
         logger.debug("=======address.channel=======");

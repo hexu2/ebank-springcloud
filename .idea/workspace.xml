@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6916066c-0d65-46f5-b2b6-ef914432274f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/config/IntegrationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/config/IntegrationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/controller/IntergrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/controller/IntergrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/IntegrationGateWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/IntegrationGateWay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/ebank-user/application-ebank-user-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/ebank-user/application-ebank-user-dev.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -168,11 +170,11 @@
         <option value="$PROJECT_DIR$/ebank-springintegration/pom.xml" />
         <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/IntegrationService.java" />
         <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/entity/Address.java" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/config/IntegrationConfig.java" />
         <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/AddressService.java" />
+        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/UserService.java" />
         <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/IntegrationGateWay.java" />
         <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/controller/IntergrationController.java" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/UserService.java" />
+        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/config/IntegrationConfig.java" />
       </list>
     </option>
   </component>
@@ -489,7 +491,7 @@
       <workItem from="1588348537900" duration="1855000" />
       <workItem from="1588358896198" duration="1115000" />
       <workItem from="1588363127466" duration="1690000" />
-      <workItem from="1588391634768" duration="21867000" />
+      <workItem from="1588391634768" duration="22637000" />
     </task>
     <task id="LOCAL-00001" summary="ebank-springcloud demo">
       <created>1588010174019</created>
@@ -547,11 +549,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588477417181</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ebank-springcloud demo">
+      <created>1588478163557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1588478163557</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226555000" />
+    <option name="totallyTimeSpent" value="227325000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

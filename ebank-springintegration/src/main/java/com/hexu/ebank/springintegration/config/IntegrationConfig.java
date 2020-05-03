@@ -79,11 +79,11 @@ public class IntegrationConfig {
 
 
     @Bean
-    @ServiceActivator(inputChannel = "router.channel")
-    public PayloadTypeRouter router(){
+    @ServiceActivator(inputChannel = "payload.router.channel")
+    public PayloadTypeRouter router(){//Payload type router sample
         PayloadTypeRouter payloadTypeRouter = new PayloadTypeRouter();
-        payloadTypeRouter.setChannelMapping(TUser.class.getName(), "tuser.channel");
-        payloadTypeRouter.setChannelMapping(Address.class.getName(),"address.channel");
+        payloadTypeRouter.setChannelMapping(TUser.class.getName(), "tuser.from.payloadtyperouter.channel");
+        payloadTypeRouter.setChannelMapping(Address.class.getName(),"address.from.payloadtyperouter.channel");
 
         return payloadTypeRouter;
     }
