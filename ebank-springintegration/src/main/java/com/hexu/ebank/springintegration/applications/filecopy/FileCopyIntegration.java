@@ -27,9 +27,9 @@ import java.util.Scanner;
 @IntegrationComponentScan
 public class FileCopyIntegration {
 
-    public final String INPUT_DIR = "/Users/hexu/Developer/WorkSpace/IDEA/ebank-springcloud/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/filecopy/inputdir";
+    public final String INPUT_DIR = "/tmp/source";
 
-    public final String OUTPUT_DIR = "/Users/hexu/Developer/WorkSpace/IDEA/ebank-springcloud/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/filecopy/outputdir";
+    public final String OUTPUT_DIR = "/tmp/target";
 
 
     public final String FILE_PATTERN = "*.txt";

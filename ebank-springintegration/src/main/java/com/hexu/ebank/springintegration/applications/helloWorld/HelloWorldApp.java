@@ -5,9 +5,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.messaging.MessageChannel;
-import org.springframework.messaging.PollableChannel;
-import org.springframework.messaging.support.GenericMessage;
 
 public class HelloWorldApp {
 
@@ -15,13 +12,9 @@ public class HelloWorldApp {
 
     public static void main(String[] args) {
         AbstractApplicationContext context =
-                new ClassPathXmlApplicationContext("/META-INF/spring/integration/helloWorldDemo.xml", HelloWorldApp.class);
-        MessageChannel inputChannel = context.getBean("inputChannel", MessageChannel.class);
-        PollableChannel outChannel = context.getBean("outputChannel", PollableChannel.class);
-        inputChannel.send(new GenericMessage<>("World"));
+                new ClassPathXmlApplicationContext("/META-INF/spring/integration/helloWorld/helloWorldDemo.xmll", HelloWorldApp.class);
 
-        logger.info("======> HelloWorldDemo : " + outChannel.receive(0).getPayload());
-
+        context.registerShutdownHook();
         System.out.println(context);
     }
 }
