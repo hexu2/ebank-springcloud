@@ -24,7 +24,7 @@ public class UserService {
     }
 
     @ServiceActivator(inputChannel = "integration.tuser.jsonToObj.fromTransformer.channel")
-    public void processObjToJson(Message<?> message) throws MessagingException{
+    public void processObjToJson(Message<?> message) throws MessagingException {
 
         logger.debug("********processObjToJson*******");
         MessageChannel replyMessageChannel = (MessageChannel) message.getHeaders().getReplyChannel();
@@ -39,9 +39,29 @@ public class UserService {
 
 
     @ServiceActivator(inputChannel = "tuser.from.payloadtyperouter.channel")
-    public void receiveMessageFromTuser(Message<?> message) throws MessagingException {
+    public void receiveMessageFromPayloadRouter(Message<?> message) throws MessagingException {
 
-        logger.debug("=======tuser.channel=======");
+        logger.debug("=======tuser.from.payloadtypeRouter.channel=======");
+        logger.debug(String.valueOf(message));
+        logger.debug("=============================");
+        logger.debug(String.valueOf(message.getPayload()));
+
+    }
+
+    @ServiceActivator(inputChannel = "tuser.channel.1")
+    public void receiveMessageFromUserChannel1(Message<?> message) throws MessagingException {
+
+        logger.debug("=======tuser.channel.1=======");
+        logger.debug(String.valueOf(message));
+        logger.debug("=============================");
+        logger.debug(String.valueOf(message.getPayload()));
+
+    }
+
+    @ServiceActivator(inputChannel = "tuser.channel.2")
+    public void receiveMessageFromUserChannel2(Message<?> message) throws MessagingException {
+
+        logger.debug("=======tuser.channel.2=======");
         logger.debug(String.valueOf(message));
         logger.debug("=============================");
         logger.debug(String.valueOf(message.getPayload()));

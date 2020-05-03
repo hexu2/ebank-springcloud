@@ -5,6 +5,12 @@ mvn mybatis-generator:generate
 ```  
 #Redis local path
 ```
-/usr/local/bin/redis/redis-server
+/usr/local/bin/redis/
+
+#1) startup redis
+redis-server
+
+#1) monitor redis
+redis-cli monitor
 
 ```

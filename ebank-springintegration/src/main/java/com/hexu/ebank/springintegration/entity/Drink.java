@@ -18,7 +18,11 @@ package com.hexu.ebank.springintegration.entity;
 
 import java.io.Serializable;
 
-
+/**
+ * @author Marius Bogoevici
+ * @author Tom McCuch
+ * @author Gunnar Hillert
+ */
 public class Drink implements Serializable{
 
 	private static final long serialVersionUID = 1L;

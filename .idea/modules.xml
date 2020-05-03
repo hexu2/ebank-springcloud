@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/ebank-gate/ebank-gate.iml" filepath="$PROJECT_DIR$/ebank-gate/ebank-gate.iml" />
       <module fileurl="file://$PROJECT_DIR$/ebank-springcloud.iml" filepath="$PROJECT_DIR$/ebank-springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/ebank-springintegration/ebank-springintegration.iml" filepath="$PROJECT_DIR$/ebank-springintegration/ebank-springintegration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ebank-springintegration-router/ebank-springintegration (1).iml" filepath="$PROJECT_DIR$/ebank-springintegration-router/ebank-springintegration (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/ebank-user/ebank-user.iml" filepath="$PROJECT_DIR$/ebank-user/ebank-user.iml" />
     </modules>
   </component>

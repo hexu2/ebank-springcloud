@@ -13,6 +13,12 @@
         <module name="ebank-card" />
         <module name="ebank-user" />
       </profile>
+      <profile name="Annotation profile for ebank-springcloud" enabled="true">
+        <sourceOutputDir name="../ebank-springintegration/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../ebank-springintegration/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ebank-springintegration (1)" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ebank-api1" target="1.8" />
@@ -22,6 +28,8 @@
       <module name="ebank-gate" target="1.8" />
       <module name="ebank-springcloud" target="1.8" />
       <module name="ebank-springintegration" target="1.8" />
+      <module name="ebank-springintegration (1)" target="1.8" />
+      <module name="ebank-springintegration-router" target="1.8" />
       <module name="ebank-user" target="1.8" />
       <module name="ebankapi" target="1.8" />
     </bytecodeTargetLevel>
@@ -35,6 +43,8 @@
       <module name="ebank-gate" options="-parameters" />
       <module name="ebank-springcloud" options="" />
       <module name="ebank-springintegration" options="-parameters" />
+      <module name="ebank-springintegration (1)" options="-parameters" />
+      <module name="ebank-springintegration-router" options="-parameters" />
       <module name="ebank-user" options="-parameters" />
       <module name="ebankapi" options="-parameters" />
     </option>

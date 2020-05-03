@@ -22,6 +22,7 @@
         <module>ebank-user</module>
         <module>ebank-gate</module>
         <module>ebank-card</module>
+        <module>ebank-springintegration</module>
     </modules>
 
     <packaging>pom</packaging>

@@ -1,18 +1,26 @@
-# Getting Started
+Café Sample Application - Pure SI Implementation
+================================================
 
-### Reference Documentation
-For further reference, please consider the following sections:
+See the parent-level **README.md** for more details, but the flow of the implementation should follow this diagram:
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/maven-plugin/)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/reference/htmlsingle/#boot-features-developing-web-applications)
-* [Spring Integration](https://docs.spring.io/spring-boot/docs/2.2.6.RELEASE/reference/htmlsingle/#boot-features-integration)
 
-### Guides
-The following guides illustrate how to use some features concretely:
+	                                                                                          Barista
+	                                                                     hotDrinks       ____________________
+	                                                                    |==========| -->|                    |
+	                     orders                   drinks               /                | prepareHotDrink()  |
+	Place Order ->Cafe->|======|->OrderSplitter->|======|->DrinkRouter                  |                    |
+	                                                                   \ coldDrinks     | prepareColdDrink() |
+	                                                                    |==========| -->|                    |
+	                                                                                    |____________________|
+	
+	                                                Legend: |====| - channels
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-* [Integrating Data](https://spring.io/guides/gs/integration/)
+
+## Instructions for running the CafeDemo sample
+
+The example comes with two identical configurations. One is ANNOTATION-based another is XML-based
+
+To run this sample simply execute the CafeDemoApp classes in the **org.springframework.integration.samples.cafe.xml** or  **org.springframework.integration.samples.cafe.annotation** package.
+
+See the configuration files in the **META-INF/spring/integration** path.
 
