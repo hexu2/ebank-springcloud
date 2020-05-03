@@ -37,4 +37,15 @@ public class UserService {
         replyMessageChannel.send(newMessage);
     }
 
+
+    @ServiceActivator(inputChannel = "tuser.channel")
+    public void receiveMessageFromTuser(Message<?> message) throws MessagingException {
+
+        logger.debug("=======tuser.channel=======");
+        logger.debug(String.valueOf(message));
+        logger.debug("=============================");
+        logger.debug(String.valueOf(message.getPayload()));
+
+    }
+
 }
