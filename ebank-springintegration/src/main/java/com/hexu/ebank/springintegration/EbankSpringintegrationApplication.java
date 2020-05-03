@@ -9,5 +9,4 @@ public class EbankSpringintegrationApplication {
     public static void main(String[] args) {
         SpringApplication.run(EbankSpringintegrationApplication.class, args);
     }
-
 }
