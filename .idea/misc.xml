@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ebank-card/pom.xml" />
         <option value="$PROJECT_DIR$/ebank-springintegration/pom.xml" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

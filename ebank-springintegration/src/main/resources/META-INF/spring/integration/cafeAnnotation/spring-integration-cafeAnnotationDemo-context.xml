@@ -21,8 +21,10 @@
 
 	<int:channel id="orders"/>
 	<int:channel id="drinks"/>
+
+    <int:channel id="hotDrinks"><int:queue capacity="10"/></int:channel>
 	<int:channel id="coldDrinks"><int:queue capacity="10"/></int:channel>
-	<int:channel id="hotDrinks"><int:queue capacity="10"/></int:channel>
+
 	<int:channel id="coldDrinkBarista"/>
 	<int:channel id="hotDrinkBarista"/>
 	<int:channel id="preparedDrinks"/>

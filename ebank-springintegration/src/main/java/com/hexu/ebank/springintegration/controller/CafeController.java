@@ -1,10 +1,11 @@
 package com.hexu.ebank.springintegration.controller;
 
 
-import com.hexu.ebank.springintegration.entity.Order;
-import com.hexu.ebank.springintegration.gateWay.CafeGateWay;
+
+import com.hexu.ebank.springintegration.applications.cafeAnnotation.entity.Order;
 import io.swagger.annotations.Api;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -14,14 +15,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/v1/cafe")
 @RestController
 public class CafeController {
-    @Autowired
-    CafeGateWay cafeGateWay;
+
+    private static final Logger logger = LoggerFactory.getLogger(CafeController.class);
 
 
     @RequestMapping(value = "/placeOrder", method = {RequestMethod.POST})
     public void placeOrder(@RequestBody Order order){
 
-        cafeGateWay.placeOrder(order);
+        logger.debug(" order " + order);
 
     }
 }

@@ -16,15 +16,16 @@
 
 package com.hexu.ebank.springintegration.applications.cafeAnnotation.service;
 
+import com.hexu.ebank.springintegration.applications.cafeAnnotation.entity.OrderItem;
 import org.springframework.integration.annotation.MessageEndpoint;
 import org.springframework.integration.annotation.Router;
-import com.hexu.ebank.springintegration.applications.cafeAnnotation.entity.*;
 
 /**
  * @author Mark Fisher
  */
 @MessageEndpoint
 public class DrinkRouter {
+
 
 	@Router(inputChannel="drinks")
 	public String resolveOrderItemChannel(OrderItem orderItem) {

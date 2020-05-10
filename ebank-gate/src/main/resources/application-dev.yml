@@ -69,8 +69,6 @@ ebank-user:
 
 
 
-
-
 #swagger config
 swagger:
   basepackage: com.hexu.ebank.gate
@@ -91,4 +89,4 @@ logging:
     console: "%d %-5level %logger : %msg%n"
     file: "%d %-5level [%thread] %logger : %msg%n"
   file:
-    name: log/ebank-user/application-ebank-gate-dev.log
+    name: log/ebank-gate/application-ebank-gate-dev.log

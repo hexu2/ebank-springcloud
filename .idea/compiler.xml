@@ -9,6 +9,7 @@
         <module name="ebank-center" />
         <module name="ebank-springintegration" />
         <module name="ebank-gate" />
+        <module name="ebank-spring-integration" />
         <module name="ebank-common" />
         <module name="ebank-card" />
         <module name="ebank-user" />
@@ -26,6 +27,7 @@
       <module name="ebank-center" target="1.8" />
       <module name="ebank-common" target="1.8" />
       <module name="ebank-gate" target="1.8" />
+      <module name="ebank-spring-integration" target="1.8" />
       <module name="ebank-springcloud" target="1.8" />
       <module name="ebank-springintegration" target="1.8" />
       <module name="ebank-springintegration (1)" target="1.8" />
@@ -41,6 +43,7 @@
       <module name="ebank-center" options="-parameters" />
       <module name="ebank-common" options="-parameters" />
       <module name="ebank-gate" options="-parameters" />
+      <module name="ebank-spring-integration" options="-parameters" />
       <module name="ebank-springcloud" options="" />
       <module name="ebank-springintegration" options="-parameters" />
       <module name="ebank-springintegration (1)" options="-parameters" />

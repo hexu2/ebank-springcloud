@@ -16,11 +16,6 @@
 
 package com.hexu.ebank.springintegration.applications.cafexml;
 
-import org.springframework.context.support.AbstractApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-import com.hexu.ebank.springintegration.applications.cafexml.entity.*;
-import com.hexu.ebank.springintegration.applications.cafexml.service.Cafe;
-
 /**
  * Provides the 'main' method for running the Cafe Demo application. When an
  * order is placed, the Cafe will send that order to the "orders" channel.
@@ -37,16 +32,16 @@ import com.hexu.ebank.springintegration.applications.cafexml.service.Cafe;
 public class CafeXMLDemoApp {
 
 	public static void main(String[] args) {
-		AbstractApplicationContext context =
-			new ClassPathXmlApplicationContext("/META-INF/spring/integration/cafeXML/spring-integration-cafeXMLDemo-context.xml", CafeXMLDemoApp.class);
-
-		Cafe cafe = (Cafe) context.getBean("cafe");
-		for (int i = 1; i <= 100; i++) {
-			Order order = new Order(i);
-			order.addItem(DrinkType.LATTE, 2, false);
-			order.addItem(DrinkType.MOCHA, 3, true);
-			cafe.placeOrder(order);
-		}
-		context.close();
+//		AbstractApplicationContext context =
+//			new ClassPathXmlApplicationContext("/META-INF/spring/integration/cafeXML/spring-integration-cafeXMLDemo-context.xml", CafeXMLDemoApp.class);
+//
+//		Cafe cafe = (Cafe) context.getBean("cafe");
+//		for (int i = 1; i <= 100; i++) {
+//			Order order = new Order(i);
+//			order.addItem(DrinkType.LATTE, 2, false);
+//			order.addItem(DrinkType.MOCHA, 3, true);
+//			cafe.placeOrder(order);
+//		}
+//		context.close();
 	}
 }

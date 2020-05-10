@@ -7,9 +7,11 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 @Api("ebank-user 远程调用接口")
 @FeignClient(value = "ebank-user")
+@RestController
 public interface EbankUserRpc {
 
 

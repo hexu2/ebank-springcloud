@@ -1,0 +1,42 @@
+server:
+  port: 8765
+
+spring:
+  application:
+    name: ebank-spring-integration
+
+
+#eureka confg
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8760/eureka/
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 30000 #缺省为1000
+
+#swagger config
+swagger:
+  basepackage: com.hexu.ebank.springintegration
+  service:
+    name: ebank-spring-integration
+    description: ebank-spring-integration后端服务接口
+    developer: hexu
+    url: com.hexu.ebank
+    email: 2212925883@qq.com
+
+#Log config
+logging:
+  level:
+    org.springframework: ERROR
+    com.hexu.ebank: DEBUG
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  file:
+    name: log/ebank-spring-integration/application-ebank-spring-integration-dev.log

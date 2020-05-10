@@ -17,6 +17,7 @@
 package com.hexu.ebank.springintegration.applications.cafeAnnotation.service;
 
 import com.hexu.ebank.springintegration.applications.cafeAnnotation.entity.Order;
+import org.springframework.integration.annotation.EndpointId;
 import org.springframework.integration.annotation.Gateway;
 
 /**
@@ -30,6 +31,7 @@ import org.springframework.integration.annotation.Gateway;
  */
 public interface Cafe {
 
+    @EndpointId("orders")
 	@Gateway(requestChannel="orders")
 	void placeOrder(Order order);
 
