@@ -1,65 +1,69 @@
-2020-05-10 17:46:10,857 INFO  [main] com.hexu.ebank.card.EbankCardApplication : The following profiles are active: dev
-2020-05-10 17:46:16,186 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
-2020-05-10 17:46:16,187 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.33]
-2020-05-10 17:46:16,984 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2020-05-10 17:46:17,523 WARN  [main] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
-2020-05-10 17:46:17,524 INFO  [main] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2020-05-10 17:46:17,557 INFO  [main] com.netflix.config.DynamicPropertyFactory : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4c0e426a
-2020-05-10 17:46:21,087 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2020-05-10 17:46:21,386 WARN  [main] com.netflix.config.sources.URLConfigurationSource : No URLs will be polled as dynamic configuration sources.
-2020-05-10 17:46:21,387 INFO  [main] com.netflix.config.sources.URLConfigurationSource : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2020-05-10 17:46:23,223 INFO  [main] com.netflix.discovery.DiscoveryClient : Initializing Eureka in region us-east-1
-2020-05-10 17:46:23,557 INFO  [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON encoding codec LegacyJacksonJson
-2020-05-10 17:46:23,558 INFO  [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using JSON decoding codec LegacyJacksonJson
-2020-05-10 17:46:23,736 INFO  [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML encoding codec XStreamXml
-2020-05-10 17:46:23,736 INFO  [main] com.netflix.discovery.provider.DiscoveryJerseyProvider : Using XML decoding codec XStreamXml
-2020-05-10 17:46:24,197 INFO  [main] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
-2020-05-10 17:46:24,229 INFO  [main] com.netflix.discovery.DiscoveryClient : Disable delta property : false
-2020-05-10 17:46:24,230 INFO  [main] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
-2020-05-10 17:46:24,230 INFO  [main] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
-2020-05-10 17:46:24,230 INFO  [main] com.netflix.discovery.DiscoveryClient : Application is null : false
-2020-05-10 17:46:24,230 INFO  [main] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
-2020-05-10 17:46:24,230 INFO  [main] com.netflix.discovery.DiscoveryClient : Application version is -1: true
-2020-05-10 17:46:24,230 INFO  [main] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
-2020-05-10 17:46:24,530 INFO  [main] com.netflix.discovery.DiscoveryClient : The response status is 200
-2020-05-10 17:46:24,536 INFO  [main] com.netflix.discovery.DiscoveryClient : Starting heartbeat executor: renew interval is: 30
-2020-05-10 17:46:24,561 INFO  [main] com.netflix.discovery.InstanceInfoReplicator : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2020-05-10 17:46:24,571 INFO  [main] com.netflix.discovery.DiscoveryClient : Discovery Client initialized at timestamp 1589103984569 with initial instances count: 0
-2020-05-10 17:46:24,643 INFO  [main] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1589103984643, current=UP, previous=STARTING]
-2020-05-10 17:46:24,647 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
-2020-05-10 17:46:24,647 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_EBANK-CARD/192.168.1.6:ebank-card:8763: registering service...
-2020-05-10 17:46:24,711 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2020-05-10 17:46:24,824 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_EBANK-CARD/192.168.1.6:ebank-card:8763 - registration status: 204
-2020-05-10 17:46:24,843 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
-2020-05-10 17:46:25,928 INFO  [main] com.hexu.ebank.card.EbankCardApplication : Started EbankCardApplication in 17.256 seconds (JVM running for 18.935)
-2020-05-10 17:46:26,112 INFO  [RMI TCP Connection(9)-127.0.0.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-05-10 17:46:27,270 INFO  [RMI TCP Connection(7)-127.0.0.1] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} inited
-2020-05-10 17:46:54,538 INFO  [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Disable delta property : false
-2020-05-10 17:46:54,538 INFO  [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Single vip registry refresh property : null
-2020-05-10 17:46:54,538 INFO  [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Force full registry fetch : false
-2020-05-10 17:46:54,538 INFO  [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Application is null : false
-2020-05-10 17:46:54,538 INFO  [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Registered Applications size is zero : true
-2020-05-10 17:46:54,539 INFO  [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Application version is -1: false
-2020-05-10 17:46:54,539 INFO  [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : Getting all instance registry info from the eureka server
-2020-05-10 17:46:54,581 INFO  [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient : The response status is 200
-2020-05-10 17:51:24,262 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
-2020-05-10 17:55:37,264 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TCardMapper.selectAllTCardWarpperByUserId : ==>  Preparing: select d.id, d.card_no, d.user_id, d.card_type_code, d.card_type_name, d.product_code,d.product_type_name, d.pin_no, d.cvv2, d.status, d.exprie_time, d.create_time, d.update_time from (select a.id, a.card_no, a.user_id, a.card_type_code, b.card_type_name, a.product_code,c.product_type_name, a.pin_no, a.cvv2, a.status, a.exprie_time, a.create_time, a.update_time from t_card a, t_card_type b, t_product c where a.card_type_code = b.id and a.product_code = c.id) d where d.user_id = ? 
-2020-05-10 17:55:37,307 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TCardMapper.selectAllTCardWarpperByUserId : ==> Parameters: 1(Integer)
-2020-05-10 17:55:37,359 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TCardMapper.selectAllTCardWarpperByUserId : <==      Total: 5
-2020-05-10 17:55:37,362 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TAmountMapper.selectTamountWarpperByCardId : ==>  Preparing: select d.id, d.card_id, d.currency_id, d.currency_name, d.amount_value, d.amount_type_id,d.amount_type_name, d.create_time, d.update_time from ( select a.id, a.card_id, a.currency_id, b.currency_name, a.amount_value, a.amount_type_id,c.amount_type_name, a.create_time, a.update_time from t_amount a, t_currency b, t_amount_type c WHERE a.currency_id = b.id and a.amount_type_id = c.id) d where d.card_id = ? 
-2020-05-10 17:55:37,363 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TAmountMapper.selectTamountWarpperByCardId : ==> Parameters: 1(Integer)
-2020-05-10 17:55:37,383 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TAmountMapper.selectTamountWarpperByCardId : <==      Total: 2
-2020-05-10 17:55:37,385 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TAmountMapper.selectTamountWarpperByCardId : ==>  Preparing: select d.id, d.card_id, d.currency_id, d.currency_name, d.amount_value, d.amount_type_id,d.amount_type_name, d.create_time, d.update_time from ( select a.id, a.card_id, a.currency_id, b.currency_name, a.amount_value, a.amount_type_id,c.amount_type_name, a.create_time, a.update_time from t_amount a, t_currency b, t_amount_type c WHERE a.currency_id = b.id and a.amount_type_id = c.id) d where d.card_id = ? 
-2020-05-10 17:55:37,385 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TAmountMapper.selectTamountWarpperByCardId : ==> Parameters: 2(Integer)
-2020-05-10 17:55:37,390 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TAmountMapper.selectTamountWarpperByCardId : <==      Total: 2
-2020-05-10 17:55:37,391 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TAmountMapper.selectTamountWarpperByCardId : ==>  Preparing: select d.id, d.card_id, d.currency_id, d.currency_name, d.amount_value, d.amount_type_id,d.amount_type_name, d.create_time, d.update_time from ( select a.id, a.card_id, a.currency_id, b.currency_name, a.amount_value, a.amount_type_id,c.amount_type_name, a.create_time, a.update_time from t_amount a, t_currency b, t_amount_type c WHERE a.currency_id = b.id and a.amount_type_id = c.id) d where d.card_id = ? 
-2020-05-10 17:55:37,391 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TAmountMapper.selectTamountWarpperByCardId : ==> Parameters: 3(Integer)
-2020-05-10 17:55:37,393 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TAmountMapper.selectTamountWarpperByCardId : <==      Total: 1
-2020-05-10 17:55:37,394 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TAmountMapper.selectTamountWarpperByCardId : ==>  Preparing: select d.id, d.card_id, d.currency_id, d.currency_name, d.amount_value, d.amount_type_id,d.amount_type_name, d.create_time, d.update_time from ( select a.id, a.card_id, a.currency_id, b.currency_name, a.amount_value, a.amount_type_id,c.amount_type_name, a.create_time, a.update_time from t_amount a, t_currency b, t_amount_type c WHERE a.currency_id = b.id and a.amount_type_id = c.id) d where d.card_id = ? 
-2020-05-10 17:55:37,395 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TAmountMapper.selectTamountWarpperByCardId : ==> Parameters: 4(Integer)
-2020-05-10 17:55:37,397 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TAmountMapper.selectTamountWarpperByCardId : <==      Total: 1
-2020-05-10 17:55:37,399 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TAmountMapper.selectTamountWarpperByCardId : ==>  Preparing: select d.id, d.card_id, d.currency_id, d.currency_name, d.amount_value, d.amount_type_id,d.amount_type_name, d.create_time, d.update_time from ( select a.id, a.card_id, a.currency_id, b.currency_name, a.amount_value, a.amount_type_id,c.amount_type_name, a.create_time, a.update_time from t_amount a, t_currency b, t_amount_type c WHERE a.currency_id = b.id and a.amount_type_id = c.id) d where d.card_id = ? 
-2020-05-10 17:55:37,399 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TAmountMapper.selectTamountWarpperByCardId : ==> Parameters: 5(Integer)
-2020-05-10 17:55:37,402 DEBUG [http-nio-8763-exec-6] com.hexu.ebank.card.mapper.TAmountMapper.selectTamountWarpperByCardId : <==      Total: 1
-2020-05-10 17:56:24,279 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
-2020-05-10 18:01:24,294 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 00:03:11,983 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 00:08:12,029 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 00:13:12,045 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 00:18:12,063 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 00:23:12,085 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 00:28:12,100 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 00:33:12,119 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 00:38:12,144 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 00:43:12,157 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 00:48:12,174 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 00:53:12,197 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 00:58:12,218 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 01:03:12,232 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 01:08:12,251 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 01:13:12,270 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 01:18:34,592 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 01:23:34,606 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 01:28:34,619 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 01:33:34,631 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 01:38:34,644 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 01:43:34,654 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 01:48:34,677 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 01:53:34,690 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 01:58:34,702 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 02:03:34,728 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 02:08:34,738 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 02:13:34,751 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 02:18:34,769 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 02:23:34,781 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 02:28:34,796 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 02:33:34,819 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 02:38:34,833 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 02:43:34,846 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 02:48:34,864 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 02:53:34,878 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 02:58:34,893 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 03:03:34,914 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 03:08:34,926 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 03:13:34,941 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 03:18:34,958 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 03:23:34,971 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 03:28:34,984 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 03:33:35,002 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 03:38:35,014 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 03:43:35,027 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 03:48:35,044 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 03:53:35,058 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 03:58:35,070 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 04:03:35,088 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 04:08:35,107 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 04:13:35,121 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 04:18:35,140 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 04:23:35,154 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 04:28:35,172 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 04:33:35,192 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 04:38:35,207 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 04:43:35,220 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 04:48:35,241 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 04:53:35,257 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 04:58:35,269 INFO  [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver : Resolving eureka endpoints via configuration
+2020-05-11 05:02:11,953 WARN  [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient : Saw local status change event StatusChangeEvent [timestamp=1589144531953, current=DOWN, previous=UP]
+2020-05-11 05:02:11,956 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_EBANK-CARD/192.168.1.6:ebank-card:8763: registering service...
+2020-05-11 05:02:11,978 INFO  [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient : DiscoveryClient_EBANK-CARD/192.168.1.6:ebank-card:8763 - registration status: 204
+2020-05-11 05:02:12,319 INFO  [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource : {dataSource-1} closed
+2020-05-11 05:02:12,360 INFO  [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient : Shutting down DiscoveryClient ...
+2020-05-11 05:02:15,368 INFO  [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient : Unregistering ...
+2020-05-11 05:02:15,369 WARN  [DiscoveryClient-0] com.netflix.discovery.TimedSupervisorTask : task supervisor shutting down, can't accept the task
+2020-05-11 05:02:15,382 INFO  [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient : DiscoveryClient_EBANK-CARD/192.168.1.6:ebank-card:8763 - deregister  status: 200
+2020-05-11 05:02:15,417 INFO  [SpringContextShutdownHook] com.netflix.discovery.DiscoveryClient : Completed shut down of DiscoveryClient

@@ -2,51 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6916066c-0d65-46f5-b2b6-ef914432274f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/controller/InstanceStatusController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_http_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_stream_5_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/rpc/EbankSpringIntegrationRpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/CafeGateWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/entity/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/entity/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/entity/DrinkType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/entity/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/flow/CafeFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/controller/CafeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/feign/CafeServiceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/util/ConstantVarible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/resources/META-INF/spring/integration/amqp/spring-integration-amap-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/resources/META-INF/spring/integration/amqpdemo2/spring-integration-amapdemo2-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/resources/META-INF/spring/integration/cafeAnnotation/spring-integration-cafeAnnotationDemo-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/resources/META-INF/spring/integration/cafeXML/spring-integration-cafeXMLDemo-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/resources/META-INF/spring/integration/helloWorld/helloWorldDemo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebank-spring-integration/src/main/resources/spring-integration-helloWorld-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-gate/ebank-gate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-gate/ebank-gate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-gate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-gate/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/EbankGateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/EbankGateApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/rpc/EbankCardRpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/rpc/EbankCardRpc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/rpc/EbankUserRpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/rpc/EbankUserRpc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ebank-gate/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-gate/src/main/resources/application-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ebank-gate/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-gate/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-gate/target/classes/com/hexu/ebank/gate/EbankGateApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-gate/target/classes/com/hexu/ebank/gate/EbankGateApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/EbankSpringintegrationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/EbankSpringintegrationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation/service/Cafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation/service/Cafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation/service/DrinkRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation/service/DrinkRouter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafexml/CafeXMLDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafexml/CafeXMLDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/config/CafeConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/config/IntegrationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/config/IntegrationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/config/MessageConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/config/MessageConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/controller/CafeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/controller/CafeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/controller/IntergrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/controller/IntergrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/entity/Delivery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/entity/Drink.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/entity/DrinkType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/entity/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/entity/OrderItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/gateWay/CafeGateWay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/gateWay/IntegrationGateWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/gateWay/IntegrationGateWay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/gateWay/MessageGateWay.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/gateWay/MessageGateWay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/listerner/MessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/listerner/MessageListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/AddressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/CommonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebank-springintegration/src/main/resources/META-INF/spring/integration/cafeAnnotation/spring-integration-cafeAnnotationDemo-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ebank-springintegration/src/main/resources/META-INF/spring/integration/cafeAnnotation/spring-integration-cafeAnnotationDemo-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/ebank-card/application-ebank-card-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/ebank-card/application-ebank-card-dev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/ebank-card/application-ebank-card-dev.log.2020-04-22.0.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/log/ebank-user/application-ebank-user-dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/ebank-user/application-ebank-user-dev.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -116,10 +95,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/controller/CafeController.java">
+        <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/EbankSpringIntegrationApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            <state relative-caret-position="165">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,82 +107,88 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebank-gate/src/main/resources/application-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/EbankSpringintegrationApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebank-springintegration/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-421">
-              <caret line="243" column="42" selection-start-line="243" selection-start-column="31" selection-end-line="243" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/controller/InstanceStatusController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebank-gate/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="21" selection-start-line="21" selection-start-column="4" selection-end-line="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/rpc/EbankCardRpc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/rpc/EbankUserRpc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="330">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/rpc/EbankSpringIntegrationRpc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="210">
+              <caret line="20" column="74" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebank-common/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ebank-spring-integration/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="-81">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/resources/application-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/controller/CafeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="23" selection-start-line="23" selection-end-line="44" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/feign/CafeServiceFeign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebank-user/src/main/java/com/hexu/ebank/user/config/MapperConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebank-user/src/main/java/com/hexu/ebank/user/controller/InstanceStatusController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ebank-user/src/main/java/com/hexu/ebank/user/feign/TUserServiceFeign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -217,8 +202,8 @@
         <option value="FxmlFile" />
         <option value="Interface" />
         <option value="spring " />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -243,7 +228,6 @@
       <find>inputChannel</find>
       <find>receiverChannel</find>
       <find>integration.tuser.gatewary.channel</find>
-      <find>orders</find>
       <find>in</find>
       <find>filter.result.channel</find>
       <find>Message count</find>
@@ -254,6 +238,7 @@
       <find>sw</find>
       <find>actuator</find>
       <find>integration</find>
+      <find>orders</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -271,23 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ebank-springintegration/pom.xml" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/amqppublishsubscribe/service/Subscriber1ServiceActivator.java" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/amqppublishsubscribe/service/Subscriber2ServiceActivator.java" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/amqp/HelloService.java" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/amqp/service/HelloService.java" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/amqp/service/impl/HelloServiceImpl.java" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/resources/META-INF/spring/integration/amqp/spring-integration-amap-context.xml" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/amqpdemo2/AmqpDemo2App.java" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/amqp/AmqpApp.java" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/resources/META-INF/spring/integration/amqpdemo2/spring-integration-amapdemo2-context.xml" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/entity/OrderItem.java" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/service/Barista.java" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/service/Waiter.java" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/service/Cafe.java" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/resources/META-INF/spring/integration/cafe/spring-integration-cafeDemo-context.xml" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/CafeDemoApp.java" />
-        <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafexml/CafeDemoApp.java" />
         <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation/entity/DrinkType.java" />
         <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation/service/Waiter.java" />
         <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation/service/OrderSplitter.java" />
@@ -310,18 +278,35 @@
         <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/ebankspringintegration/controller/InstanceStatusController.java" />
         <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/ebankspringintegration/EbankSpringIntegrationApplication.java" />
-        <option value="$PROJECT_DIR$/ebank-spring-integration/pom.xml" />
         <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/ebankspringintegration/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/ebankspringintegration/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/controller/InstanceStatusController.java" />
-        <option value="$PROJECT_DIR$/ebank-gate/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/EbankGateApplication.java" />
         <option value="$PROJECT_DIR$/ebank-gate/pom.xml" />
         <option value="$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/rpc/EbankCardRpc.java" />
         <option value="$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/rpc/EbankUserRpc.java" />
         <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/EbankSpringintegrationApplication.java" />
         <option value="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/controller/CafeController.java" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/FileCopyGateWay.java" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/fileCopy/flows/FileCopyFlow.java" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/fileCopy/FileCopyGateWay.java" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/util/ConstantVarible.java" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/helloWorld/entity/HelloMsg.java" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/helloWorld/endpoint/WelcomeEndpoint.java" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/helloWorld/HelloWorldGateWay.java" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/resources/spring-integration-helloWorld-context.xml" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/controller/FileCopyeController.java" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/CafeFlow.java" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/entity/DrinkType.java" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/flow/CafeFlow.java" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/CafeGateWay.java" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/controller/CafeController.java" />
+        <option value="$PROJECT_DIR$/ebank-gate/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/rpc/EbankSpringIntegrationRpc.java" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/pom.xml" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/EbankSpringIntegrationApplication.java" />
+        <option value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/feign/CafeServiceFeign.java" />
       </list>
     </option>
   </component>
@@ -384,83 +369,136 @@
             <path>
               <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ebank-springintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ebank-springintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ebank-springintegration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ebank-springintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ebank-springintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ebank-springintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hexu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ebank-springintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="hexu" type="462c0819:PsiDirectoryNode" />
-              <item name="ebank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ebank-springintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="hexu" type="462c0819:PsiDirectoryNode" />
               <item name="ebank" type="462c0819:PsiDirectoryNode" />
-              <item name="springintegration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ebank-springintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="hexu" type="462c0819:PsiDirectoryNode" />
               <item name="ebank" type="462c0819:PsiDirectoryNode" />
-              <item name="springintegration" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hexu" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hexu" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="constant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hexu" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hexu" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ebank-springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ebank-springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ebank-user" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -482,7 +520,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/ebankspringintegration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/entity" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -496,18 +534,18 @@
       <recent name="com.hexu.ebank" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/ebankspringintegration" />
+      <recent name="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/entity" />
       <recent name="$PROJECT_DIR$/ebank-spring-integration/src/main/resources" />
+      <recent name="$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/ebankspringintegration" />
       <recent name="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation/service" />
       <recent name="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation/entity" />
-      <recent name="$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hexu.ebank.gate.rpc" />
+      <recent name="com.hexu.ebank.springintegration.applications.cafe" />
       <recent name="com.hexu.ebank.springintegration.ebankspringintegration.controller" />
       <recent name="com.hexu.ebank.springintegration.applications.cafeAnnotation.service" />
       <recent name="com.hexu.ebank.springintegration.applications.cafe.service" />
-      <recent name="com.hexu.ebank.springintegration.applications.amqpdemo2" />
-      <recent name="com.hexu.ebank.springintegration.apps.cafe.service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ebank-springintegration/src/main/resources/META-INF/spring/integration/cafe" />
@@ -532,20 +570,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EbankSpringintegrationApplication">
-    <configuration name="AmqpApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hexu.ebank.springintegration.applications.amqp.AmqpApp" />
-      <module name="ebank-springintegration" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexu.ebank.springintegration.applications.amqp.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EbankSpringIntegrationApplicationNew">
     <configuration name="AmqpDemo2App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hexu.ebank.springintegration.applications.amqpdemo2.AmqpDemo2App" />
       <module name="ebank-springintegration" />
@@ -585,6 +610,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EbankSpringIntegrationApplicationNew" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.hexu.ebank.springintegration.EbankSpringIntegrationApplication" />
+      <module name="ebank-spring-integration" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexu.ebank.springintegration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EbankCardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ebank-card" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexu.ebank.card.EbankCardApplication" />
@@ -609,19 +647,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexu.ebank.gate.EbankGateApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EbankSpringIntegrationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ebank-spring-integration" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexu.ebank.ebankspringintegration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hexu.ebank.ebankspringintegration.EbankSpringIntegrationApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -675,24 +700,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AmqpApp" />
       <item itemvalue="Application.AmqpDemo2App" />
       <item itemvalue="Application.CafeXMLDemoApp" />
       <item itemvalue="Application.CafeAnnotationDemoApp" />
+      <item itemvalue="Application.EbankSpringIntegrationApplicationNew" />
       <item itemvalue="Spring Boot.EbankSpringintegrationApplication" />
       <item itemvalue="Spring Boot.EbankUserApplication" />
       <item itemvalue="Spring Boot.EbankCenterApplication" />
       <item itemvalue="Spring Boot.EbankGateApplication" />
       <item itemvalue="Spring Boot.EbankCardApplication" />
-      <item itemvalue="Spring Boot.EbankSpringIntegrationApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.EbankSpringIntegrationApplication" />
+        <item itemvalue="Application.EbankSpringIntegrationApplicationNew" />
         <item itemvalue="Application.CafeAnnotationDemoApp" />
         <item itemvalue="Application.CafeXMLDemoApp" />
         <item itemvalue="Application.AmqpDemo2App" />
-        <item itemvalue="Application.AmqpApp" />
       </list>
     </recent_temporary>
   </component>
@@ -729,7 +752,7 @@
       <workItem from="1588493307405" duration="46374000" />
       <workItem from="1588611492052" duration="957000" />
       <workItem from="1588693858723" duration="7259000" />
-      <workItem from="1589101953335" duration="2715000" />
+      <workItem from="1589101953335" duration="16426000" />
     </task>
     <task id="LOCAL-00001" summary="ebank-springcloud demo">
       <created>1588010174019</created>
@@ -815,11 +838,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588546099673</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ebank-springcloud demo">
+      <created>1589104954270</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589104954270</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292204000" />
+    <option name="totallyTimeSpent" value="305915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -834,7 +864,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49676025" visible="true" weight="0.2911302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49676025" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" sideWeight="0.5041152" side_tool="true" weight="0.26466382" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -845,8 +875,8 @@
       <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32961586" />
       <window_info anchor="bottom" id="Thumbnails" order="1" weight="0.32961586" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.6659514" weight="0.23048328" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.7503576" visible="true" weight="0.35068154" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.6659514" weight="0.44114003" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.7503576" visible="true" weight="0.38785625" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -865,7 +895,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Database" order="4" sideWeight="0.4979424" weight="0.2074392" />
-      <window_info anchor="right" id="Maven" order="5" sideWeight="0.49382716" visible="true" weight="0.052217454" />
+      <window_info anchor="right" id="Maven" order="5" sideWeight="0.49382716" weight="0.052217454" />
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -891,127 +921,235 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/config/MessageConfig.java">
+    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/controller/CafeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/controller/IntergrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/util/ConstantVarible.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/fileCopy/FileCopyGateWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/fileCopy/flows/FileCopyFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/filecopy/FileCopyIntegration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="56" lean-forward="true" selection-start-line="29" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/EbankSpringintegrationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/helloWorld/entity/HelloMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/resources/META-INF/spring/integration/cafeAnnotation/spring-integration-cafeAnnotationDemo-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" selection-start-line="19" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/helloWorld/HelloWorldGateWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="64" selection-start-column="8" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/InstallSofeWare/apache-maven-3.6.1/repository/anialy-repo/org/springframework/integration/spring-integration-core/5.2.5.RELEASE/spring-integration-core-5.2.5.RELEASE.jar!/org/springframework/integration/config/spring-integration-5.2.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1150">
+          <caret line="594" column="27" selection-start-line="594" selection-start-column="19" selection-end-line="594" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/resources/META-INF/spring/integration/amqp/spring-integration-amap-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/resources/META-INF/spring/integration/amqpdemo2/spring-integration-amapdemo2-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-557" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/helloWorld/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/helloWorld/HelloWorldApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/resources/META-INF/spring/integration/helloWorld/helloWorldDemo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/resources/spring-integration-helloWorld-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/helloWorld/endpoint/WelcomeEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/resources/META-INF/spring/integration/amqp/spring-integration-amap-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="37" selection-start-line="37" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/entity/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/entity/Order.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/entity/Delivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/entity/Drink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/entity/DrinkType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/InstallSofeWare/apache-maven-3.6.1/repository/anialy-repo/org/springframework/integration/spring-integration-core/5.2.5.RELEASE/spring-integration-core-5.2.5.RELEASE-sources.jar!/org/springframework/integration/aggregator/CorrelationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/InstallSofeWare/apache-maven-3.6.1/repository/anialy-repo/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/scheduling/concurrent/ReschedulingRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/CafeFlow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="12" selection-start-line="12" selection-start-column="2" selection-end-line="37" selection-end-column="7" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/gateWay/MessageGateWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/gateWay/IntegrationGateWay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-start-column="2" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/CommonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" selection-start-line="11" selection-start-column="2" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="62" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/InstallSofeWare/apache-maven-3.6.1/repository/anialy-repo/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/annotation/ImportResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation/service/Barista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="71" column="13" lean-forward="true" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-user/src/main/java/com/hexu/ebank/user/service/impl/TUserLogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-user/src/main/java/com/hexu/ebank/user/service/impl/TUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation/service/Cafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation/service/DrinkRouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation/service/OrderSplitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation/service/Waiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/hello.xml" />
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/gateWay/MessageGateWay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/listerner/MessageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/controller/IntergrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1022,151 +1160,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/resources/META-INF/spring/integration/cafeAnnotation/spring-integration-cafeAnnotationDemo-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/resources/META-INF/spring/integration/cafeXML/spring-integration-cafeXMLDemo-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafexml/CafeXMLDemoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="34" selection-start-line="34" selection-start-column="2" selection-end-line="44" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafexml/service/Cafe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/cafeAnnotation/CafeAnnotationDemoApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="37" selection-start-line="37" selection-end-line="48" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/service/AddressService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" selection-start-line="12" selection-start-column="2" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/resources/META-INF/spring/integration/amqp/spring-integration-amap-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/resources/META-INF/spring/integration/amqpdemo2/spring-integration-amapdemo2-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/applications/filecopy/FileCopyIntegration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="24" selection-start-line="24" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="30" selection-start-line="30" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/EbankSpringIntegrationApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/ebankspringintegration/config/MybatisConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/ebankspringintegration/config/MapperConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-557">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-user/src/main/java/com/hexu/ebank/user/controller/InstanceStatusController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/controller/InstanceStatusController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="15" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-user/src/main/java/com/hexu/ebank/user/controller/TUserBaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/flow/CafeFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1521#1541#0" expanded="true" />
+            <element signature="e#3560#3578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/applications/cafe/CafeGateWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1175,34 +1201,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ebank-user/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319" />
+        <state relative-caret-position="-547" />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/InstallSofeWare/apache-maven-3.6.1/repository/anialy-repo/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE-sources.jar!/org/springframework/beans/factory/support/AutowireUtils.java">
+    <entry file="file://$PROJECT_DIR$/ebank-user/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/EbankGateApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="142">
+          <caret line="37" selection-start-line="37" selection-end-line="43" />
         </state>
       </provider>
     </entry>
@@ -1215,8 +1220,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ebank-gate/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="393">
+          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1236,29 +1241,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/rpc/EbankUserRpc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-421">
-          <caret line="243" column="42" selection-start-line="243" selection-start-column="31" selection-end-line="243" selection-end-column="42" />
+        <state relative-caret-position="-81">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/EbankSpringintegrationApplication.java">
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-user/src/main/java/com/hexu/ebank/user/config/MapperConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-user/src/main/java/com/hexu/ebank/user/controller/InstanceStatusController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-user/src/main/java/com/hexu/ebank/user/feign/TUserServiceFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/controller/CafeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="23" selection-start-line="23" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-gate/src/main/java/com/hexu/ebank/gate/rpc/EbankSpringIntegrationRpc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="74" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/feign/CafeServiceFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebank-spring-integration/src/main/java/com/hexu/ebank/springintegration/EbankSpringIntegrationApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebank-springintegration/src/main/java/com/hexu/ebank/springintegration/controller/CafeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1326,7 +1379,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ebank-common</last-edited>
+          <last-edited>ebank-gate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -53,6 +53,9 @@ zuul:
     ebank-card:
       path: /ebank-card/*
       serviceId: ebank-card
+    ebank-spring-integration:
+      path: /ebank-spring-integration/*
+      serviceId: ebank-spring-integration
 
   sensitive-headers:
   host:
